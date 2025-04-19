@@ -44,7 +44,7 @@ export default function Home() {
       <section id="about" className="bg-black text-white py-20 px-6 md:px-24 border-t border-gray-800">
         <div className="flex flex-col md:flex-row items-center md:items-start gap-16">
           <img
-            src="/vvv.png"
+            src="/thumb1.jpg"
             alt="Beckett Bateman"
             className="w-80 h-80 rounded-full object-cover"
           />
