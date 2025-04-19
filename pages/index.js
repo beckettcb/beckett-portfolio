@@ -7,7 +7,7 @@ export default function Home() {
     <img
       src="/Logo.png"
       alt="BB Logo"
-      className="w-8 h-8 object-contain"
+      className="w-8 h-8 mr-3 inline-block"
     />
     <h1
       className="text-xl font-bold tracking-wide"
