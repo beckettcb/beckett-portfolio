@@ -5,7 +5,7 @@ export default function Home() {
       <header className="flex justify-between items-center px-6 py-4 border-b border-gray-800">
         <h1 
         className="text-xl font-bold tracking-wide"
-        style={{ fontFamily: "&#39;Zen Dots&#39;, sans-serif" }}
+        style={{ fontFamily: "'Zen Dots', sans-serif" }}
       >
         BECKETT BATEMAN
       </h1>
@@ -34,7 +34,7 @@ export default function Home() {
 
     <p
   className="mt-2 text-gray-400 max-w-xl"
-  style={{ fontFamily: "&#39;Space Grotesk&#39;, sans-serif" }}
+  style={{ fontFamily: "'Space Grotesk', sans-serif" }}
 >
   I craft artistic, rhythmic, and emotionally charged edits with impact.
 </p>
