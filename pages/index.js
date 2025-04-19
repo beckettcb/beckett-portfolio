@@ -101,18 +101,25 @@ export default function Home() {
 
       {/* Creators Section */}
       <section id="creators" className="bg-black text-white py-20 px-6 md:px-24 border-t border-gray-800">
+      <div className="mt-10 flex justify-center">
+        <img 
+          src="/kaal.png" 
+         alt="Extra Visual" 
+         className="w-64 h-auto rounded-lg border border-gray-700"
+       />
+    </div>
         <div className="max-w-6xl mx-auto">
           <h3 className="text-3xl md:text-4xl font-semibold mb-10">Creators I&apos;ve Worked With</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="border border-gray-700 rounded-xl p-6 bg-gray-900/40 hover:bg-gray-900 transition">
-              <h4 className="text-xl font-semibold mb-2">@kaal.raam</h4>
+              <h4 className="text-xl font-semibold mb-2">@noir.motion</h4>
               <p className="text-gray-400 text-sm leading-relaxed">
                 “Beckett turned my raw footage into something emotionally gripping. My videos never hit harder.”
               </p>
             </div>
 
             <div className="border border-gray-700 rounded-xl p-6 bg-gray-900/40 hover:bg-gray-900 transition">
-              <h4 className="text-xl font-semibold mb-2">@noir.motion</h4>
+              <h4 className="text-xl font-semibold mb-2">@kaal.raam</h4>
               <p className="text-gray-400 text-sm leading-relaxed">
                 Fast, clean, and completely understood my style. One of the best editors I&apos;ve collaborated with.
               </p>
@@ -126,13 +133,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="mt-10 flex justify-center">
-  <img 
-    src="/kaal.png" 
-    alt="Extra Visual" 
-    className="w-64 h-auto rounded-lg border border-gray-700"
-  />
-</div>
       </section>
 
       {/* Contact Section */}
