@@ -131,7 +131,7 @@ export default function Home() {
 </section>
 <section id="contact" className="bg-black text-white py-20 px-6 md:px-24 border-t border-gray-800">
   <div className="max-w-3xl mx-auto text-center">
-    <h3 className="text-3xl md:text-4xl font-semibold mb-6">Let's Work</h3>
+    <h3 className="text-3xl md:text-4xl font-semibold mb-6">{`Let's Work`}</h3>
     <p className="text-gray-400 mb-8 text-md">
       {`Ready to collaborate, create, or just say what's up?`}  
       {`Reach out — I'm open to commissions, freelance gigs, or creative projects that need a solid editor.`}
