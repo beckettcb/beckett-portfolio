@@ -57,11 +57,11 @@ export default function Home() {
     </p>
 
     <p className="text-gray-500 text-md leading-relaxed mb-8">
-      I work primarily in Adobe Premiere Pro, After Effects, and Photoshop — but what matters most isn’t the tool, it’s the taste. My style draws from modern aesthetics: analog textures, glitch overlays, and clean pacing that leaves a mark.
+      I work primarily in Adobe Premiere Pro, After Effects, and Photoshop — but what matters most isn&rsquo;t the tool, it&rsquo;s the taste. My style draws from modern aesthetics: analog textures, glitch overlays, and clean pacing that leaves a mark.
     </p>
 
     <blockquote className="italic text-gray-600 border-l-4 border-gray-700 pl-4 text-md">
-      “Editing isn’t about what you show — it’s about what you leave out.”
+      “Editing isn&rsquo;t about what you show — it&rsquo;s about what you leave out.”
     </blockquote>
   </div>
 </div>
