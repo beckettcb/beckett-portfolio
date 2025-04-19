@@ -3,20 +3,28 @@ export default function Home() {
     <div className="bg-black text-white min-h-screen font-sans">
       {/* Header */}
       <header className="flex justify-between items-center px-6 py-4 border-b border-gray-800">
-        <h1
-          className="text-xl font-bold tracking-wide"
-          style={{ fontFamily: "'Zen Dots', sans-serif" }}
-        >
-          BECKETT BATEMAN
-        </h1>
+  <div className="flex items-center gap-3">
+    <img
+      src="/Logo.png"
+      alt="BB Logo"
+      className="w-8 h-8 object-contain"
+    />
+    <h1
+      className="text-xl font-bold tracking-wide"
+      style={{ fontFamily: "'Zen Dots', sans-serif" }}
+    >
+      BECKETT BATEMAN
+    </h1>
+  </div>
 
-        <nav className="space-x-6 text-sm">
-          <a href="#about" className="hover:text-gray-400">ABOUT</a>
-          <a href="#portfolio" className="hover:text-gray-400">SHOWCASE</a>
-          <a href="#services" className="hover:text-gray-400">SERVICES</a>
-          <a href="#contact" className="hover:text-gray-400">CONTACT</a>
-        </nav>
-      </header>
+  <nav className="space-x-6 text-sm">
+    <a href="#about" className="hover:text-gray-400">ABOUT</a>
+    <a href="#portfolio" className="hover:text-gray-400">SHOWCASE</a>
+    <a href="#services" className="hover:text-gray-400">SERVICES</a>
+    <a href="#contact" className="hover:text-gray-400">CONTACT</a>
+  </nav>
+</header>
+
 
       {/* Hero Section */}
       <section className="relative h-[90vh] overflow-hidden flex items-end">
