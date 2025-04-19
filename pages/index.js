@@ -105,9 +105,9 @@ export default function Home() {
           <h3 className="text-3xl md:text-4xl font-semibold mb-10">Creators I&apos;ve Worked With</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="border border-gray-700 rounded-xl p-6 bg-gray-900/40 hover:bg-gray-900 transition">
-              <h4 className="text-xl font-semibold mb-2">@visual.marcus</h4>
+              <h4 className="text-xl font-semibold mb-2">@kaal.raam</h4>
               <p className="text-gray-400 text-sm leading-relaxed">
-                “Beckett turned my raw footage into something emotionally gripping. My reel never hit harder.”
+                “Beckett turned my raw footage into something emotionally gripping. My videos never hit harder.”
               </p>
             </div>
 
@@ -126,6 +126,13 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="mt-10 flex justify-center">
+  <img 
+    src="/kaal.png" 
+    alt="Extra Visual" 
+    className="w-64 h-auto rounded-lg border border-gray-700"
+  />
+</div>
       </section>
 
       {/* Contact Section */}
