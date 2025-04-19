@@ -53,7 +53,7 @@ export default function Home() {
   {/* TEXT */}
   <div>
     <p className="text-gray-400 text-lg leading-relaxed mb-6">
-      I'm Beckett Bateman — a video editor who blends rhythm, mood, and motion to craft edits that hit on both an emotional and visual level. Whether it's a fast-cut reel or a slow cinematic piece, every frame I cut serves a purpose.
+      I&rsquo;m Beckett Bateman — a video editor who blends rhythm, mood, and motion to craft edits that hit on both an emotional and visual level. Whether it's a fast-cut reel or a slow cinematic piece, every frame I cut serves a purpose.
     </p>
 
     <p className="text-gray-500 text-md leading-relaxed mb-8">
